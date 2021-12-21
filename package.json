@@ -3,10 +3,10 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://anna-manorik.github.io/parcel-project-temp",
+  "homepage": "https://kateslav7.github.io/goit-js-hw-11",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-temp/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-11/"
   },
   "repository": {
     "type": "git",
@@ -26,8 +26,11 @@
     "sass": "^1.32.8"
   },
   "dependencies": {
-    "axios": "^0.24.0",
+    "@vimeo/player": "^2.16.1",
+    "flatpickr": "^4.6.9",
+    "lodash.throttle": "^4.1.1",
     "notiflix": "^3.2.2",
+    "reset-css": "^5.0.1",
     "simplelightbox": "^2.10.1"
   }
 }
